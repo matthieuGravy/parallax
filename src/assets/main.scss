@@ -1,0 +1,27 @@
+@import './base.scss';
+@import './classes.scss';
+#app {
+  min-height: 100vh;
+  margin: 0 auto;
+  font-weight: normal;
+  /*
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+    background-color: fuchsia;
+  }*/
+
+  a,
+  .yellow {
+    text-decoration: none;
+    color: hsla(56, 100%, 49%, 1);
+    transition: 0.4s;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: hsla(56, 100%, 49%, 0.2);
+      }
+    }
+  }
+}

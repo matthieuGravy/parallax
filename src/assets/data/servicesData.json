@@ -1,0 +1,15 @@
+{
+    "français": {
+      "spaCreation": "Création de site vitrine dynamique",
+      "CreationJob" : "Je crée des vitrines sur mesure en utilisant Vue3, un framework puissant pour les Single Page Applications, me permettant de créer une expérience utilisateur interactive et réactive.",
+      "servicesTitle": "titre fr",
+      "sevicesDescription": "descritpion fr"
+    },
+    "english": {
+      "languageButton": "English",
+      "spaCreation": "Crafting Dynamic Showcase Websites",
+      "servicesTitle": "titre en",
+      "sevicesDescription": "descritpion en"
+    }
+  }
+  

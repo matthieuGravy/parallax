@@ -1,0 +1,33 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #1b1b1e;
+  --color-yellow: #f0e900;
+  --color-blue: #4392f1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  //color: var(--color-text);
+  //background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+li {
+  text-decoration: none !important ;
+  list-style-type: none;
+}
